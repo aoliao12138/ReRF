@@ -12,13 +12,6 @@ PyTorch implementation of paper "Neural Residual Radiance Fields for Streamably 
 
 ![Demo](assets/teaser.png)
 
-# Software Prerequisites
-- CMake >= 3.19
-- C++ compiler (`-std=c++11` or later)
-- Python 3.X
-  - pytest
-  - pybind11 (included in this package)
-
 # Installation
 
 ```bash
