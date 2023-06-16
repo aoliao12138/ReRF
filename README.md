@@ -25,16 +25,14 @@ pip install torch-scatter==2.0.9
 Tested on Ubuntu with RTX 3090.
 
 # Datasets
-We release 3 dataset: 
-[kpop.zip](https://drive.google.com/file/d/1h8FyCgy8Sbt1-Po-t2tmEmhtdUsMCHi7/view?usp=sharing),
-[box.zip](https://drive.google.com/file/d/1JVCGiqZHOLM4weZ9DKoQy_KOO1geyqzM/view?usp=sharing),
-[sing.zip](https://drive.google.com/file/d/1-oEc_s4vqJKqmTHCAVWsV8HT7hu0lZBE/view?usp=sharing).
-To download our data for training, for example, first unzip it to your data folder and run:
+Follow [ReRF_Dataset](https://github.com/aoliao12138/ReRF_Dataset) to download our dataset and model. It is only for non-commercial purposes.
+To use our data for training and rendering, for example, first unzip it to your data folder and run:
 ```bash
 $ python data_util.py --dataset_dir ./data/kpop
 ```
 
 ## Get Started
+You can **use, redistribute, and adapt** the material for **non-commercial purposes**, as long as you give appropriate credit by **citing our paper** and **indicating any changes** that you've made.
 
 ### Train
 To train `kpop` scene, run:
@@ -57,7 +55,7 @@ $ LD_LIBRARY_PATH=./ac_dc:$LD_LIBRARY_PATH PYTHONPATH=./ac_dc/:$PYTHONPATH pytho
 ```
 If your compression use `--pca` or `--group_size`, you need to also set them at the rendering
 
-We provide our compressed files for the scene kpop at [here](https://drive.google.com/file/d/1Ogqh1duYUX84VSSFid_eroO4hw1pZ2vd/view?usp=sharing). You can unzip it and render it by using 
+Follow [ReRF_Dataset](https://github.com/aoliao12138/ReRF_Dataset) to download our compressed files for the scene kpop. It contains 4000 frames. You can unzip it and render it by using 
 ```bash
 LD_LIBRARY_PATH=./ac_dc:$LD_LIBRARY_PATH PYTHONPATH=./ac_dc/:$PYTHONPATH python rerf_render.py --config ./configs/rerf/kpop.py --compression_path <the folder path you unzip>  --render_360 4000 --pca --group_size 20
 ```
@@ -74,7 +72,7 @@ The scale of the bbox will greatly affect the final result, so it is recommended
 You can follow [DVGO](https://github.com/sunset1995/DirectVoxGO#:~:text=Extention%20to%20new%20dataset) to adjust it.
 
 ## Acknowledgement
-The code base is originated from the [DVGO](https://github.com/sunset1995/DirectVoxGO) implementation. We borrowed some codes from [Multi-view Neural Human Rendering (NHR)](https://github.com/wuminye/NHR).
+The code base is originated from the [DVGO](https://github.com/sunset1995/DirectVoxGO) implementation. We borrowed some codes from [Multi-view Neural Human Rendering (NHR)](https://github.com/wuminye/NHR) and [torch-dct](https://github.com/jbojar/torch-dct).
 
 ## Citation
 ```
