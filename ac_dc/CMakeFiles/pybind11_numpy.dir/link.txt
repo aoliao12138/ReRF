@@ -1,0 +1,2 @@
+/usr/bin/c++ -fPIC  -flto -shared  -o pybind11_numpy.cpython-38-x86_64-linux-gnu.so CMakeFiles/pybind11_numpy.dir/src/numpy_interface.cpp.o  -Wl,-rpath,/home/ubuntu/pybind11_numpy/build libcode_library.so /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 
+

@@ -1,0 +1,9 @@
+/home/ubuntu/pybind11_numpy/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/pybind11_numpy/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/pybind11_numpy/build/CMakeFiles/ncvv_ac_dc.dir
+/home/ubuntu/pybind11_numpy/build/CMakeFiles/ncvv_code.dir
+/home/ubuntu/pybind11_numpy/build/CMakeFiles/jfif_library.dir
+/home/ubuntu/pybind11_numpy/build/CMakeFiles/code_library.dir
+/home/ubuntu/pybind11_numpy/build/external/pybind11/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/pybind11_numpy/build/external/pybind11/CMakeFiles/edit_cache.dir
+he.dir

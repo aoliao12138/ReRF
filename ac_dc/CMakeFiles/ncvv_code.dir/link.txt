@@ -1,0 +1,2 @@
+/usr/bin/c++     CMakeFiles/ncvv_code.dir/huffman/ncvv_code.cpp.o  -o ncvv_code  -Wl,-rpath,/home/ubuntu/pybind11_numpy/build libjfif_library.so libcode_library.so -lpthread 
+
