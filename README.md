@@ -74,7 +74,7 @@ LD_LIBRARY_PATH=./ac_dc:$LD_LIBRARY_PATH PYTHONPATH=./ac_dc/:$PYTHONPATH python 
 As [DVGO](https://github.com/sunset1995/DirectVoxGO), check the comments in [`configs/default.py`](./configs/default.py) for the configurable settings.
 We use [`mmcv`'s config system](https://mmcv.readthedocs.io/en/latest/understand_mmcv/config.html).
 To create a new config, please inherit `configs/default.py` first and then update the fields you want.
-As [DVGO](https://github.com/sunset1995/DirectVoxGO), you can some settings like `N_iters`, `N_rand`, `num_voxels`, `rgbnet_depth`, `rgbnet_width` and so on to achieve the speed and quality tradeoff.
+As [DVGO](https://github.com/sunset1995/DirectVoxGO), you can change some settings like `N_iters`, `N_rand`, `num_voxels`, `rgbnet_depth`, `rgbnet_width` and so on to achieve the speed and quality tradeoff.
 ### Extention to new dataset
 
 The scale of the bbox will greatly affect the final result, so it is recommended to adjust it to fit your camera coordinate system.
