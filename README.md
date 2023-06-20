@@ -8,7 +8,7 @@ PyTorch implementation of paper "Neural Residual Radiance Fields for Streamably 
 > CVPR 2023
 > 
 
-#### [project page](https://aoliao12138.github.io/ReRF/) | [paper](https://arxiv.org/abs/2304.04452) | [data & model](https://drive.google.com/drive/folders/1nIl3wmbp10eN0X6z5W04GIZa1MNLv7i8?usp=sharing)
+#### [project page](https://aoliao12138.github.io/ReRF/) | [paper](https://arxiv.org/abs/2304.04452) | [data & model](https://github.com/aoliao12138/ReRF_Dataset)
 
 ![Demo](assets/teaser.png)
 
