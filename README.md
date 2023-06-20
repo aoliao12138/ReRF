@@ -37,7 +37,7 @@ You can **use, redistribute, and adapt** the material for **non-commercial purpo
 ### Train
 To train `kpop` scene, run:
 ```bash
-$ python run.py --config configs/rerf/kpop.py --render_test
+$ LD_LIBRARY_PATH=./ac_dc:$LD_LIBRARY_PATH PYTHONPATH=./ac_dc/:$PYTHONPATH python run.py --config configs/rerf/kpop.py --render_test
 ```
 
 ### Compression
