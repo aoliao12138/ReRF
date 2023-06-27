@@ -3,7 +3,7 @@ PyTorch implementation of paper "Neural Residual Radiance Fields for Streamably 
 
 > Neural Residual Radiance Fields for Streamably Free-Viewpoint Videos   
 > [Liao Wang](https://aoliao12138.github.io/), [Qiang Hu](https://qianghu-huber.github.io/qianghuhomepage/), 
->[Qihan He](https://www.linkedin.com/in/qihan-he-a378a61b7/), Ziyu Wang, [Jingyi Yu](https://sist.shanghaitech.edu.cn/2020/0707/c7499a53862/page.htm),
+>[Qihan He](https://www.linkedin.com/in/qihan-he-a378a61b7/), Ziyu Wang, [Jingyi Yu](http://www.yu-jingyi.com/),
 >[Tinne Tuytelaars](https://homes.esat.kuleuven.be/~tuytelaa/), [Lan Xu](https://www.xu-lan.com/index.html), [Minye Wu](https://wuminye.com/)  
 > CVPR 2023
 > 
