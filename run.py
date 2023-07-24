@@ -143,9 +143,10 @@ def render_viewpoints(model, render_poses, HW, Ks, ndc, render_kwargs,
             filename = os.path.join(savedir, '{:03d}_depth.jpg'.format(i))
             imageio.imwrite(filename, depth8)
 
-            rgb8 = utils.to8b(gt_imgs[i])
-            filename = os.path.join(savedir, 'gt_{:03d}.jpg'.format(i))
-            imageio.imwrite(filename, rgb8)
+            if gt_imgs is not None:
+                rgb8 = utils.to8b(gt_imgs[i])
+                filename = os.path.join(savedir, 'gt_{:03d}.jpg'.format(i))
+                imageio.imwrite(filename, rgb8)
 
 
         if gt_imgs is not None and render_factor==0:
